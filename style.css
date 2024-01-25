@@ -17,9 +17,6 @@ header{
 }
 header h1 {
     text-align: left;
-    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     float: left;
     font-family: 'Lilita One', sans-serif;
     font-size: 50px;
@@ -29,6 +26,13 @@ header h1 {
 }
 nav{
     display: inline;
+
+    font-size: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
 
