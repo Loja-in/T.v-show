@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https: //s3.amazonaws.com/shecodesio-production/uploads/files/000/112/066/original/house.jpeg?1706177644');
+    font-family: 'Courier Prime', monospace;
+}
