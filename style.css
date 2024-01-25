@@ -14,3 +14,12 @@ header{
     margin: 10px;
     padding: 10px;
 }
+
+header h1{
+    font-family: 'Fugaz One', sans-serif;
+    font-style: italic;
+    font-size:40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
