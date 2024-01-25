@@ -13,13 +13,22 @@ header{
     height: 50%;
     margin: 10px;
     padding: 10px;
-}
 
-header h1{
-    font-family: 'Fugaz One', sans-serif;
+}
+header h1 {
+    text-align: left;
+    background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: left;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 50px;
     font-style: italic;
-    font-size:40px;
     font-weight: bolder;
-    letter-spacing: 1px;
+    margin-right:40px;
+}
+nav{
+    display: inline;
+
 }
 
