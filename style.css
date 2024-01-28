@@ -13,8 +13,8 @@ header{
     height: 50%;
     margin: 10px;
     padding: 10px;
-
 }
+
 header h1 {
     text-align: left;
     float: left;
@@ -24,6 +24,7 @@ header h1 {
     font-weight: bolder;
     margin-right: 40px;
 }
+
 header nav{
     float: left;
     margin: 0;
@@ -31,7 +32,7 @@ header nav{
 }
 header nav ul{
     list-style-type: none;
-    margin: 20px 8px;
+    margin: 18px 8px;
     padding: 0;
     display: inline-block;
 }
@@ -45,4 +46,26 @@ header nav ul li a{
     font-size: 20px;
     color: #333333;
 }
+a:hover{
+    color: #1b1b1b;
+    text-decoration: underline;
+    transition: all .4s ease-in-out;
 
+}
+.search{
+    outline: 0;
+    border: 0;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 0px;
+}
+header button img{
+    width: 35px;
+}
+.checked {
+    color: orange;
+}
