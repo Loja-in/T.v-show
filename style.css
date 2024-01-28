@@ -7,6 +7,7 @@ body{
     background-image: url("house5.jpg");
     background-color: #333333;
     font-family: 'Courier Prime', monospace;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -135,15 +136,21 @@ h5{
 .btn img{
     width: 20px;
 }
+.btn:hover{
+    background-color: #f8d7da;
+    transition: all .2s ease-in-out;
+    color: teal;
+
+}
 .character{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .charact{
     width: 48%;
     height: auto;
-    margin: 2%;
+    margin:0 1%;
 }
 .charact img{
     width: 100px;
@@ -159,5 +166,21 @@ h5{
 .charact small{
     color: white;
 }
-
-
+.charact:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    color: azure;
+    font-family: 'Courier Prime', monospace;
+    margin: 10px;
+}
+footer a{
+    color: rgb(76, 116, 116);
+    text-decoration: none
+}
+footer a:hover{
+    color: #3c9cd6;
+}
