@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/069/original/movie.png?1706177678" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>ScreenSizzle</title>
+
 </head>
 <body>
     <main>
@@ -19,15 +20,16 @@
             <h1>ScreenSizzle</h1>
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="sign.html">Sign up</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  id="signup-link">Sign up</a></li>
                 </ul>
             </nav>
             <button type="search" class="search"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/071/original/search1.png?1706177704"></button>
         </header>
-        <section>
+        <section id="container">
+        <section id="About">
             <h1><strong>HOUSE</strong> <small>m.d</small></h1>
-                <article id="About">
+                <article >
                     <div class="rate">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -114,21 +116,25 @@
             </div>
             </article>
         </section>
-        <section class="sign-up">
+    </section>
+        <section class="sign" id="sign-up">
             <h5>Sign Up</h5>
             <form action="">
                 <input type="text"  class="name" placeholder="enter your name...">
                 <input type="email"  class="name" placeholder="enter your email...">
                 <input type="password"  class="name" placeholder="enter your password...">
                 <input type="password"  class="name" placeholder="confirm password...">
+                <button class="sub">Submit</button>
             </form>
         </section>
         <footer>
-            Coded by <a href="https://www.shecodes.io/graduates/99170-lojain-nasr">Lojain</a>,
-            on <a href="https://github.com/Loja-in/T.v-show">GitHub</a>
-            and hosted on <a href="https://house-m-d.netlify.app/">Netlify</a>
+            Coded by <a href="https://www.shecodes.io/graduates/99170-lojain-nasr" target="_blank">Lojain</a>,
+            on <a href="https://github.com/Loja-in/T.v-show" target="_blank">GitHub</a>
+            and hosted on <a href="https://house-m-d.netlify.app/" target="_blank">Netlify</a>
         </footer>
     </main> 
-    <script src="script.js"></script>
+    <script src="script.js">
+        
+    </script>
 </body>
 </html>
