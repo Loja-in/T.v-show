@@ -135,4 +135,29 @@ h5{
 .btn img{
     width: 20px;
 }
+.character{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.charact{
+    width: 48%;
+    height: auto;
+    margin: 2%;
+}
+.charact img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.charact p{
+    font-size: 15px;
+    text-align: justify;
+    color:white;
+}
+.charact small{
+    color: white;
+}
+
 
