@@ -32,6 +32,7 @@ header h1:hover {
 
 }
 
+
 header nav{
     float: left;
     margin: 0;
@@ -177,6 +178,42 @@ h5{
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
+.sign-up{
+    width: 30%;
+    align-items: center;
+    box-sizing: border-box;
+    display: none;
+
+
+}
+.sign-up h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.sign-up form{
+    display: block;
+    margin: 0 auto;
+    padding: 6%;
+
+}
+.sign-up form input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+}
+.sign-up form input:hover{
+    box-shadow: 0 8px 16px rgba(3, 18, 32, 0.1), 0 -6px 50px rgba(7, 94, 181, .08);
+    border: 1px dotted  #c53131;
+    transition: all .4s ease-in-out;
+    cursor: text;
+
+}
+
 footer{
     text-align: center;
     color: azure;
