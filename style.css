@@ -70,10 +70,8 @@ header button img{
 section{
     margin:10px 20px;   
 }
-article{
-    padding: 10px;
-}
-article h1{
+
+section h1{
     font-family: 'Archivo Black', sans-serif;
         font-size: 40px;
         background: -webkit-linear-gradient(#333333, #5a5454);
@@ -81,6 +79,10 @@ article h1{
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+}
+article {
+    padding: 10px;
+    display: flex;
 }
 .rate{
     margin:10px 20px;
@@ -121,16 +123,16 @@ h5{
     justify-content: space-around;
     width: 10%;
     border-radius: 20px;
-    border: 1px solid rgb(189, 142, 142);
+    border: none;
     font-size: 13px;
     font-weight: 900;
-    background-color: #DAF7A6;
+    background-color: #e7eedb;
     cursor: pointer;
     padding: 10px;
-    margin-left: 80px;
+    margin-left: 10px;
+
 }
 .btn img{
-    width: 22px;
-    
+    width: 20px;
 }
 
