@@ -77,8 +77,10 @@ article{
 }
 article h1{
     font-family: 'Archivo Black', sans-serif;
-    font-size: 40px;
-    background: -webkit-linear-gradient(#333333, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        background: -webkit-linear-gradient(#333333, #5a5454);
+        background: linear-gradient(#333333, #333);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
