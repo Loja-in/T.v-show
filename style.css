@@ -24,14 +24,25 @@ header h1 {
     font-weight: bolder;
     margin-right: 40px;
 }
-nav{
-    display: inline;
-    font-size: 20px;
-}
-nav ul{
-    list-style-type: none;
+header nav{
+    float: left;
     margin: 0;
     padding: 0;
-
+}
+header nav ul{
+    list-style-type: none;
+    margin: 20px 8px;
+    padding: 0;
+    display: inline-block;
+}
+header nav ul li{
+    display: inline;
+    margin:0 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color: #333333;
 }
 
