@@ -66,9 +66,7 @@ a:hover{
 header button img{
     width: 35px;
 }
-.checked {
-    color: orange;
-}
+
 section{
     margin:10px 20px;   
 }
@@ -84,3 +82,24 @@ article h1{
         background-clip: text;
         -webkit-text-fill-color: transparent;
 }
+.rate{
+    margin:10px 20px;
+}
+.checked {
+    color: orange;
+    
+}
+.det{
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(125, 129, 133);
+    color: rgb(4, 5, 5);
+    padding: 7px;
+    font-size: 15px;
+    line-height: 1em;
+    letter-spacing: .05em;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
