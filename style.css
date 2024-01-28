@@ -101,5 +101,36 @@ article h1{
     margin-left: 20px;
     border-radius: 10px;
 }
-
+h5{
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(36, 29, 29);
+    font-style: italic;
+}
+.about{
+    width: 40%;
+    font-size: 20px;
+    padding-left: 19px;
+    line-height: 1.3em;
+    text-align: justify;
+    color: rgb(2, 2, 2);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    border-radius: 20px;
+    border: 1px solid rgb(189, 142, 142);
+    font-size: 13px;
+    font-weight: 900;
+    background-color: #DAF7A6;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 80px;
+}
+.btn img{
+    width: 22px;
+    
+}
 
