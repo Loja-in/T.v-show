@@ -19,7 +19,7 @@ header h1 {
     text-align: left;
     float: left;
     font-family: 'Lilita One', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-style: italic;
     font-weight: bolder;
     margin-right: 40px;
@@ -32,7 +32,7 @@ header nav{
 }
 header nav ul{
     list-style-type: none;
-    margin: 18px 8px;
+    margin: 25px 8px;
     padding: 0;
     display: inline-block;
 }
@@ -61,11 +61,25 @@ a:hover{
     cursor: pointer;
     padding: 10px;
     border-radius: 50px;
-    margin-top: 0px;
+    margin-top: 8px;
 }
 header button img{
     width: 35px;
 }
 .checked {
     color: orange;
+}
+section{
+    margin:10px 20px;   
+}
+article{
+    padding: 10px;
+}
+article h1{
+    
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#333333, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
