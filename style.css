@@ -146,6 +146,7 @@
     .btn {
         display: flex;
         justify-content: space-around;
+        align-items: center ite;
         width: 10%;
         border-radius: 20px;
         border: none;
@@ -185,6 +186,7 @@
         height: 100px;
         object-fit: cover;
         border-radius: 50px;
+
     }
 
     .charact p {
