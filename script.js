@@ -6,15 +6,24 @@ document.getElementById('watch').addEventListener('click', function() {
         document.getElementById("container").style.display = "none";
         document.getElementById("sign-up").style.display = "block";
     });
-    const form = document.querySelector('form');
-form.addEventListener('submit', validateForm);
+    function displaySearch(){
+      document.getElementById("serachBtn").style.display = "none";
+      document.getElementById("inputSearch").style.display = "block";
+
+    }
+     
+    let searchBtn = document.querySelector(".search");
+    searchBtn.addEventListener('click', displaySearch);
+
+    let form = document.querySelector('form');
+   form.addEventListener('submit', validateForm);
 function validateForm(event) {
   event.preventDefault();
 
-  const nameInput = document.querySelector('.name');
-  const emailInput = document.querySelector('.email');
-  const passwordInput = document.querySelector('.password');
-  const confirmPasswordInput = document.querySelector('.confirm-password');
+  let nameInput = document.querySelector('.name');
+  let emailInput = document.querySelector('.email');
+  let passwordInput = document.querySelector('.password');
+  let confirmPasswordInput = document.querySelector('.confirm-password');
 
   let isValid = true;
 
@@ -24,7 +33,7 @@ function validateForm(event) {
   }
 
 
-  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   if (!emailRegex.test(emailInput.value)) {
     alert('Please enter a valid email address.');
     isValid = false;
