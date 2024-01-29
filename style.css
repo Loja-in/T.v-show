@@ -112,6 +112,11 @@
         color: orange;
 
     }
+    .checked:hover{
+        transform: scale(1.1);
+        transition: all .4s ease-in-out;
+        cursor: pointer;
+    }
 
     .det {
         font-weight: bold;
