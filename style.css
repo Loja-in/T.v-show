@@ -11,18 +11,7 @@
         font-family: 'Courier Prime', monospace;
         overflow-x: hidden;
     }
-    /* body::before{
-        content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url("house5.jpg");
-            background-size: cover;
-            opacity: 0.8;
-            z-index: -1;
-    } */
+
 
     header {
         width: 100%;
@@ -67,71 +56,69 @@
         margin: 0 30px;
     }
 
-    header nav ul li a {
-        text-decoration: none;
-        font-family: 'PT Serif', serif;
-        font-size: 20px;
-        color: #333333;
-    }
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color: #333333;
+}
 
-    a:hover {
-        color: #1b1b1b;
-        text-decoration: underline;
-        transition: all .4s ease-in-out;
-        cursor: pointer;
+a:hover {
+    color: #1b1b1b;
+    text-decoration: underline;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
 
-    }
+.search {
+    outline: 0;
+    border: 0;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+#inputSearch{
+    outline: 0;
+    border: 0;
+    width: 15%;
+    opacity: .7;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 23px;
+    display: none;
+}
 
-    .search {
-        outline: 0;
-        border: 0;
-        width: 70px;
-        height: 70px;
-        background-color: transparent;
-        cursor: pointer;
-        padding: 10px;
-        border-radius: 50px;
-        margin-top: 8px;
-    }
-    #inputSearch{
-        outline: 0;
-        border: 0;
-        width: 15%;
-        opacity: .7;
-        background-color: white;
-        cursor: pointer;
-        padding: 10px;
-        border-radius: 20px;
-        margin-top: 23px;
-        display: none;
-    }
+header button img {
+    width: 35px;
+}
 
-    header button img {
-        width: 35px;
-    }
+section {
+    margin: 10px 20px;
+}
+section h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#333333, #5a5454);
+    background: linear-gradient(#333333, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-    section {
-        margin: 10px 20px;
-    }
+article {
+    padding: 10px;
+    display: flex;
+}
 
-    section h1 {
-        font-family: 'Archivo Black', sans-serif;
-        font-size: 40px;
-        background: -webkit-linear-gradient(#333333, #5a5454);
-        background: linear-gradient(#333333, #333);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    article {
-        padding: 10px;
-        display: flex;
-    }
-
-    .rate {
-        margin: 10px 20px;
-    }
+.rate {
+    margin: 10px 20px;
+}
 
 .checked {
     color: orange;
