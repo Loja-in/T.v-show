@@ -1,15 +1,28 @@
 * {
         margin: 0;
         padding: 0;
-
+        
     }
 
     body {
+        
         background-image: url("house5.jpg");
         background-color: #333333;
         font-family: 'Courier Prime', monospace;
         overflow-x: hidden;
     }
+    /* body::before{
+        content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("house5.jpg");
+            background-size: cover;
+            opacity: 0.8;
+            z-index: -1;
+    } */
 
     header {
         width: 100%;
@@ -120,24 +133,23 @@
         margin: 10px 20px;
     }
 
-    .checked {
-        color: orange;
+.checked {
+    color: orange;
+}
+.checked:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
 
-    }
-    .checked:hover{
-        transform: scale(1.1);
-        transition: all .4s ease-in-out;
-        cursor: pointer;
-    }
-
-    .det {
-        font-weight: bold;
-        font-style: italic;
-        background-color: rgb(125, 129, 133);
-        color: rgb(4, 5, 5);
-        padding: 7px;
-        font-size: 15px;
-        line-height: 1em;
+.det {
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(125, 129, 133);
+    color: rgb(4, 5, 5);
+    padding: 7px;
+    font-size: 15px;
+    line-height: 1em;
         letter-spacing: .05em;
         margin-left: 20px;
         border-radius: 10px;
@@ -156,11 +168,11 @@
         padding-left: 19px;
         line-height: 1.3em;
         text-align: justify;
-        color: rgb(2, 2, 2);
+        color: rgb(255, 255, 255);
         font-family: 'Yanone Kaffeesatz', sans-serif;
     }
 
-    .btn {
+.btn {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -173,11 +185,11 @@
         cursor: pointer;
         padding: 10px;
         margin-left: 10px;
-    }
+}
 
-    .btn img {
-        width: 20px;
-    }
+.btn img {
+    width: 20px;
+}
 
     .btn:hover {
         background-color: #f8d7da;
