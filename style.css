@@ -1,16 +1,14 @@
 * {
-        margin: 0;
-        padding: 0;
-        
-    }
+    margin: 0;
+    padding: 0;
+}
 
-    body {
-        
-        background-image: url("house5.jpg");
-        background-color: #333333;
-        font-family: 'Courier Prime', monospace;
-        overflow-x: hidden;
-    }
+body {
+    background-image: url("house5.jpg");
+    background-color: #333333;
+    font-family: 'Courier Prime', monospace;
+    overflow-x: hidden;
+}
 
 
 header {
@@ -41,17 +39,17 @@ header nav {
     padding: 0;
 }
 
-    header nav ul {
-        list-style-type: none;
-        margin: 25px 8px;
-        padding: 0;
-        display: inline-block;
-    }
+header nav ul {
+list-style-type: none;
+    margin: 25px 8px;
+    padding: 0;
+    display: inline-block;
+}
 
-    header nav ul li {
-        display: inline;
-        margin: 0 30px;
-    }
+header nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
 
 header nav ul li a {
     text-decoration: none;
@@ -134,89 +132,84 @@ article {
     padding: 7px;
     font-size: 15px;
     line-height: 1em;
-        letter-spacing: .05em;
-        margin-left: 20px;
-        border-radius: 10px;
+    letter-spacing: .05em;
+    margin-left: 20px;
+    border-radius: 10px;
     }
 
-    h5 {
-        font-size: 25px;
-        padding: 10px;
-        color: rgb(36, 29, 29);
-        font-style: italic;
-    }
+h5 {
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(36, 29, 29);
+    font-style: italic;
+}
 
-    .about {
-        width: 40%;
-        font-size: 20px;
-        padding-left: 19px;
-        line-height: 1.3em;
-        text-align: justify;
-        color: rgb(255, 255, 255);
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-    }
+.about {
+    width: 40%;
+    font-size: 20px;
+    padding-left: 19px;
+    line-height: 1.3em;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 .btn {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 10%;
-        border-radius: 20px;
-        border: none;
-        font-size: 13px;
-        font-weight: 900;
-        background-color: #e7eedb;
-        cursor: pointer;
-        padding: 10px;
-        margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    font-weight: 900;
+    background-color: #e7eedb;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .btn img {
     width: 20px;
 }
 
-    .btn:hover {
-        background-color: #f8d7da;
-        transition: all .2s ease-in-out;
-        color: teal;
+.btn:hover {
+    background-color: #f8d7da;
+    transition: all .2s ease-in-out;
+    color: teal;
+}
 
-    }
+.character {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-    .character {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+.charact {
+    width: 48%;
+    height: auto;
+    margin: 0 1%;
+}
+.charact img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.charact p {
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
 
-    .charact {
-        width: 48%;
-        height: auto;
-        margin: 0 1%;
-    }
-
-    .charact img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 50px;
-
-    }
-
-    .charact p {
-        font-size: 15px;
-        text-align: justify;
-        color: white;
-    }
-
-    .charact small {
-        color: white;
-    }
-
-    .charact:hover {
-        transform: scale(1.1);
-        transition: all .4s ease-in-out;
-        cursor: pointer;
-    }
+.charact small {
+    color: white;
+}
+.charact:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
 
 .sign {
     width: 30%;
@@ -225,21 +218,19 @@ article {
     display: none;
     margin: 0 auto;
     padding: 10px;
+}
 
+.sign h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
 
-    }
-
-    .sign h5 {
-        text-align: center;
-        margin-top: 10px;
-        font-size: 30px;
-    }
-
-    .sign form {
-        display: block;
-        margin: 0 auto;
-        padding: 6%;
-    }
+.sign form {
+    display: block;
+    margin: 0 auto;
+    padding: 6%;
+}
 
 .sign form input {
     width: 100%;
@@ -252,10 +243,10 @@ article {
 }
 
 .sign form input:hover {
-        box-shadow: 0 8px 16px rgba(3, 18, 32, 0.1), 0 -6px 50px rgba(7, 94, 181, .08);
-        border: 1px dotted #c53131;
-        transition: all .4s   ease-in-out;
-        cursor: text;
+    box-shadow: 0 8px 16px rgba(3, 18, 32, 0.1), 0 -6px 50px rgba(7, 94, 181, .08);
+    border: 1px dotted #c53131;
+    transition: all .4s   ease-in-out;
+    cursor: text;
 }
 .sub {
     width: 40%;
@@ -285,11 +276,12 @@ footer {
 }
 
 footer a {
-        color: rgb(76, 116, 116);
-        text-decoration: none
+    color: rgb(76, 116, 116);
+    text-decoration: none
 }
 
-    footer a:hover {
-        color: #3c9cd6;
-    }
-
+footer a:hover {
+    color: #3c9cd6;
+}
+@media (max-width:767px) {
+}
