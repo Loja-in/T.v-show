@@ -1,25 +1,31 @@
-document.getElementById('watch').addEventListener('click', function() {
+
+    // Add event listener to the watch button
+    document.getElementById('watch').addEventListener('click', function() {
         window.open('https://www.hulu.com/series/house-ef39603f-eb90-4248-8237-f6168d7c1be1', '_blank');
     });
+    // Add event listener to the signup link
     document.getElementById("signup-link").addEventListener("click", function (event) {
         event.preventDefault();
         document.getElementById("container").style.display = "none";
         document.getElementById("sign-up").style.display = "block";
     });
+    // Define the displaySearch function
     function displaySearch(){
       document.getElementById("serachBtn").style.display = "none";
       document.getElementById("inputSearch").style.display = "block";
 
     }
-     
+    
+// Add a click event listener to the search button
     let searchBtn = document.querySelector(".search");
     searchBtn.addEventListener('click', displaySearch);
 
     let form = document.querySelector('form');
-   form.addEventListener('submit', validateForm);
-function validateForm(event) {
+    form.addEventListener('submit', validateForm);
+    
+// Define the validateForm function 
+    function validateForm(event) {
   event.preventDefault();
-
   let nameInput = document.querySelector('.name');
   let emailInput = document.querySelector('.email');
   let passwordInput = document.querySelector('.password');
